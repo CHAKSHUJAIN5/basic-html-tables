@@ -1,0 +1,55 @@
+/* General page styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  margin: 0;
+  padding: 0;
+}
+
+/* Title styles */
+.title {
+  text-align: center;
+  color: #333;
+  margin: 40px 0 20px;
+  font-size: 28px;
+}
+
+/* Container for centering the table */
+.table-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Table styles */
+table {
+  width: 70%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Header row */
+th {
+  background-color: #4a90e2;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 14px 16px;
+}
+
+/* Data cells */
+td {
+  padding: 14px 16px;
+  color: #333;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+/* Row hover effect */
+tbody tr:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
